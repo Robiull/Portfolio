@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --Brown: #53423e;
+  --lightBrown:#645550;
+  --darkBrown:#2c2523;
+  --black:#1e1917;
+  --white:#f1e1d9;
+  --cyan:#15d1e9;
+  --lightCyan:#88e5f0;
+  --darkCyan:#009fb3;
+  --orange:#fb9718;
+  --lightOrange:#fac22b;
+  --darkOrange:#d28422;
+  --grey:#626965;
+  --lightGray:#978580;
+  --darkGray:#3f4441;
+
+}
+
+
+body {
+  @apply bg-[var(--darkBrown)];
+  font-family: "josefin Sans",sans-serif;
+  font-family: "Roboto",sans-serif;
+  
+}
+
+
+
