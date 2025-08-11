@@ -44,8 +44,8 @@ const ContactFrom = () => {
     <div>
         <form className='flex flex-col gap-4 text-white' ref={form} onSubmit={sendEmail}>
             <input name='from_name' type='text' placeholder='Your Name' required className='h-12 rounded-lg bg-lightBrown px-2'/>
-            <input name='from_email' type='email' placeholder='Enter Email' required className='h-12 rounded-lg bg-lightBrown px-2'/>
-            <textarea name='message' type='text' placeholder='Message' rows='9' cols='50' required className='rounded-lg bg-lightBrown p-2'/>
+            <input name='from_email' type='email' placeholder='Your Email' required className='h-12 rounded-lg bg-lightBrown px-2'/>
+            <textarea name='message' type='text' placeholder='How can i help you?' rows='9' cols='50' required className='rounded-lg bg-lightBrown p-2'/>
             <button type='submit' className='w-full rounded-lg bg-cyan border border-cyan text-white h-12 text-xl font-bold hover:bg-darkCyan transition-all duration-500' disabled={isSending}>{buttonText}</button>
         </form>
     </div>

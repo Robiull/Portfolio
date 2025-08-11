@@ -3,6 +3,7 @@ import React from 'react';
 import NavbarIcon from './NavbarIcon';
 import NavbarLinks from './NavbarLinks';
 import NavbarBtn from './NavbarBtn';
+import ContactSocial from '../contactSection/ContactSocial'
 import { FaBars } from "react-icons/fa6";
 import { useState } from 'react';
 
@@ -18,10 +19,15 @@ const navbarMain = () => {
                 <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
                     <NavbarLinks />
                 </div>
-                <NavbarBtn />
+                <div className='flex justify-around'>
+                    <div className='font-sm text-cyan sm:hidden lg:block'>
+                        <ContactSocial/>
+                    </div>
+                    <NavbarBtn />
+                </div>
             </div>
-            <div className='flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-orange'>
-                <button className='text-2xl p-3 border border-orange rounded-full text-white' onClick={toggleMenu}><FaBars /></button>
+            <div className='flex lg:hidden sm:block p-6 items-center justify-center rounded-full border-[0.5px] border-orange'>
+                <button className='text-2xl p-3 text-white' onClick={toggleMenu}><FaBars /></button>
             </div>
         </nav>
     )
