@@ -9,7 +9,7 @@ const SubSkillPic = () => {
         className='border-y-2 border-lightGray relative'>
             <div className='absolute bg-gradient-to-r from-orange to-cyan opacity-50 w-full h-full'></div>
             <img 
-                    src='../../public/images/subSkills.jpg' alt='sub SKill Image'
+                    src='/images/subSkills.jpg' alt='sub SKill Image'
             />
     </motion.div>
   )

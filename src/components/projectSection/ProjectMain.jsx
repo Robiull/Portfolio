@@ -7,7 +7,7 @@ const projects=[
         year:'2025',
         language:'NodeJs, MongoDB, RESTful-API',
         align:'right',
-        image:'../../public/images/tourism.jpg',
+        image:'/images/tourism.jpg',
         link:'https://tourism-0wii.onrender.com/'
     },
     {
@@ -15,7 +15,7 @@ const projects=[
         year:'2021',
         language:'JavaScript, C# ',
         align:'left',
-        image:'../../public/images/online.jpg',
+        image:'/images/online.jpg',
         link:'https://github.com/Robiull/Online-shoping-store'
     }
 ]
